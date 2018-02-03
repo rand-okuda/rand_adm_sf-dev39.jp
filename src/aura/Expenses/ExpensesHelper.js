@@ -1,5 +1,6 @@
 ({
     createExpense: function(component, expense) {
+
         var theExpenses = component.get("v.expenses");
  
         // Copy the expense to a new object
@@ -10,5 +11,6 @@
         theExpenses.push(newExpense);
         component.set("v.expenses", theExpenses);
         console.log("Expenses after 'create': " + JSON.stringify(theExpenses));
+
     }
 })
