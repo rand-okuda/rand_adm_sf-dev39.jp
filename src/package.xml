@@ -233,6 +233,9 @@
         <name>RemoteSiteSetting</name>
     </types>
     <types>
+        <members>unfiled$public</members>
+        <members>Lead_Source_equals_Web</members>
+        <members>Lead_Source_equals_Web/Web_Leads_3</members>
         <members>DB_Adoption</members>
         <members>DB_Adoption/Active_User_Logins</members>
         <members>DB_Adoption/Active_Users</members>
@@ -276,9 +279,6 @@
         <members>DB_Adoption/DB_Adoption_OPPTYS_w_No_Opp_Product</members>
         <members>DB_Adoption/DB_Adoption_OPPTYS_wo_Fields_Populated</members>
         <members>DB_Adoption/DB_Adoption_PROSPECT_w_Fields_Populated</members>
-        <members>unfiled$public</members>
-        <members>Lead_Source_equals_Web</members>
-        <members>Lead_Source_equals_Web/Web_Leads_3</members>
         <name>Report</name>
     </types>
     <types>
