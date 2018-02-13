@@ -91,6 +91,11 @@
     <label>経費</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Amount__c</columns>
+        <columns>Client__c</columns>
+        <columns>Date__c</columns>
+        <columns>Reimbursed__c</columns>
         <filterScope>Everything</filterScope>
         <label>すべて選択</label>
     </listViews>

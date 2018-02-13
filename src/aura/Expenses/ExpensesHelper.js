@@ -1,4 +1,5 @@
 ({
+
     createExpense: function(component, expense) {
 
         var action = component.get("c.saveExpense");
