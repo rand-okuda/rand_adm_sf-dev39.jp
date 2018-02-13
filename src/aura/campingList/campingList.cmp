@@ -5,10 +5,6 @@
                   action="{!c.doInit}"
                   />
 
-    <aura:attribute name="items" 
-                    type="Camping_Item__c[]"
-                    />
-    
     <aura:attribute name="newItem" 
                     type="Camping_Item__c"
                     default="{ 
@@ -67,11 +63,15 @@
         </lightning:layoutItem>
     </lightning:layout>
 
+    <aura:attribute name="items" 
+                    type="Camping_Item__c[]"
+                    />
+
     <lightning:card title="Camping Items">
         
         <p class="slds-p-horizontal--small">
             <aura:iteration items="{!v.items}" var="item">
-                <c:campingListItem items="{!items}"/>
+                <c:campingListItem item="{!item}"/>
             </aura:iteration>
         </p>
         

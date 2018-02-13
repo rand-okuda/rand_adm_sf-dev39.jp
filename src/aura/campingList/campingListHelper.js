@@ -1,12 +1,12 @@
 ({
 
-    createItem: function(component, item) {
+    createItem: function(component, newItem) {
 
         var action = component.get("c.saveItem");
 
         action.setParams(
             {
-            "item": item
+            "item": newItem
             }
         );
 
