@@ -83,6 +83,10 @@
     <label>Camping Item</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Price__c</columns>
+        <columns>Quantity__c</columns>
+        <columns>Packed__c</columns>
         <filterScope>Everything</filterScope>
         <label>すべて選択</label>
     </listViews>

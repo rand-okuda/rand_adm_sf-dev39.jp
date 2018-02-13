@@ -1,10 +1,8 @@
 ({
-	packItem : function(component, event, helper) {
-        var item = component.get("v.item.Packed__c");
-        item.Packed__c = true;
-        component.set("v.item", item);
-        var btnClicked = event.getSource();
-        btnClicked.set("v.disabled",true);
-        console.log("***packItem");
-	}
+    doInit : function(component, event, helper) {
+        var mydate = component.get("v.items.LastModifiedDate");
+        if(mydate){
+            component.set("v.formatdate", new Date(mydate));
+        }
+    },
 })

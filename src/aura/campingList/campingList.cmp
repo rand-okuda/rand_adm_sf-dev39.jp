@@ -1,6 +1,9 @@
 <aura:component controller="CampingListController">
 
-    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name="init" 
+                  value="{!this}" 
+                  action="{!c.doInit}"
+                  />
 
     <aura:attribute name="items" 
                     type="Camping_Item__c[]"
@@ -63,7 +66,7 @@
             
         </lightning:layoutItem>
     </lightning:layout>
-    
+
     <lightning:card title="Camping Items">
         
         <p class="slds-p-horizontal--small">

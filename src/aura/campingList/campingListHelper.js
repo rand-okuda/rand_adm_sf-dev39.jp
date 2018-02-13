@@ -1,6 +1,6 @@
 ({
 
-    createItem: function(Camping_Item__c, item) {
+    createItem: function(component, item) {
 
         var action = component.get("c.saveItem");
 

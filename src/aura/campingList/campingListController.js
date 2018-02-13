@@ -1,6 +1,6 @@
 ({
 
-    doInit: function(component, event, helper) {
+    doInit: function(component, event) {
 
         var action = component.get("c.getItems");
 
@@ -20,7 +20,7 @@
 
     ,
 
-    clickCreateItem : function(component, event) {
+    clickCreateItem : function(component, event, helper) {
 
         var validItem = 
             component.find('newitemeform').reduce(function (validSoFar, inputCmp) {
