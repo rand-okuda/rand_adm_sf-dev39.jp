@@ -1,5 +1,25 @@
 ({
 
+    doInit: function(component, event, helper) {
+
+        var action = component.get("c.getItems");
+
+        action.setCallback(this, function(response) {
+
+            var state = response.getState();
+
+            if (state === "SUCCESS") {
+                component.set("v.items", response.getReturnValue());
+            }
+
+        });
+
+        $A.enqueueAction(action);
+
+    }
+
+    ,
+
     clickCreateItem : function(component, event) {
 
         var validItem = 
@@ -9,15 +29,8 @@
             }, true);
         
         if(validItem){
-
             var newItem = component.get("v.newItem");
-            var theItems = component.get("v.items"); 
-
-            theItems.push(newItem);
-
-            component.set("v.items", theItems);
-            component.set("v.newItem", { 'sobjectType': 'Camping_Item__c', 'Name': '', 'Quantity__c': 0, 'Price__c': 0, 'Packed__c': false })
-
+            helper.createItem(component, newItem);
         }
         	
     }
