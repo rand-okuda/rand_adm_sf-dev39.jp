@@ -1,6 +1,8 @@
 <aura:component >
 
-    <aura:attribute name="expenses" type="Expense__c[]"/>
+    <aura:attribute name="expenses" 
+                    type="Expense__c[]"
+                    />
 
     <lightning:card title="Expenses">
 
