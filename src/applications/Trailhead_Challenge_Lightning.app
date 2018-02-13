@@ -11,16 +11,8 @@
     <tab>standard-home</tab>
     <tab>standard-Feed</tab>
     <tab>standard-File</tab>
-    <tab>MyData</tab>
-    <tab>Energy_Audit__c</tab>
     <tab>Camping_Item__c</tab>
-    <tab>standard-Case</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-Opportunity</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Lead</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>standard-report</tab>
+    <tab>Expense__c</tab>
     <uiType>Lightning</uiType>
     <utilityBar>Trailhead_Challenge_Lightning_UtilityBar</utilityBar>
 </CustomApplication>
