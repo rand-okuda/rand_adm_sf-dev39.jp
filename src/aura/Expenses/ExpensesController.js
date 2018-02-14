@@ -11,9 +11,7 @@
         if(validExpense){
             // Create the new expense
             var newExpense = component.get("v.newExpense");
-            console.log("Create expense: " + JSON.stringify(newExpense));
             helper.createExpense(component, newExpense);
-            console.log("Create expense: " + JSON.stringify(newExpense));
         }
 
     }
