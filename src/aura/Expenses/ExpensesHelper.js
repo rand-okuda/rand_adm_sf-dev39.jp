@@ -1,6 +1,6 @@
 ({
 
-    createExpense: function(component, expense) {
+    saveExpense: function(component, expense, callback) {
 
         var action = component.get("c.saveExpense");
 
@@ -8,7 +8,19 @@
             { "expense": expense }
         );
 
-        action.setCallback(this, function(response){
+        if (callback) {
+            action.setCallback(this, callback);
+        }
+
+        $A.enqueueAction(action);
+
+    }
+
+    ,
+
+    createExpense: function(component, expense) {
+
+        this.saveExpense(component, expense, function(response){
 
             var state = response.getState();
 
@@ -20,31 +32,13 @@
 
         });
 
-        $A.enqueueAction(action);
-
     }
 
     ,
 
     updateExpense: function(component, expense) {
 
-        var action = component.get("c.saveExpense");
-
-        action.setParams(
-            { "expense": expense }
-        );
-
-        action.setCallback(this, function(response){
-
-            var state = response.getState();
-
-            if (state === "SUCCESS") {
-                // do nothing!
-            }
-
-        });
-
-        $A.enqueueAction(action);
+        this.saveExpense(component, expense);
 
     }
 
