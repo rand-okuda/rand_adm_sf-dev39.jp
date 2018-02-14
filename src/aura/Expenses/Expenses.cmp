@@ -5,6 +5,11 @@
                   value="{!this}"
                   />
 
+    <aura:handler name="updateExpense" 
+                  event="c:expensesItemUpdate"
+                  action="{!c.handleUpdateExpense}"
+                  />
+    
     <aura:attribute name="expenses" 
                     type="Expense__c[]"
                     />
