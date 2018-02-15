@@ -4,6 +4,10 @@
                     type="Camping_Item__c"
                     />
 
+    <aura:registerEvent name="changeItem" 
+                        type="c:addItemEvent"
+                        />
+
     <lightning:card title="{!v.item.Name}" 
                     iconName="standard:scan_card" >
 
@@ -25,7 +29,7 @@
                              checked="{!v.item.Packed__c}"
                              messageToggleActive="Yes"
                              messageToggleInactive="No"
-                             onchange="{!v.item.Packed__c}"
+                             onchange="{!c.clickPacked}"
                              />
         </p>
 
