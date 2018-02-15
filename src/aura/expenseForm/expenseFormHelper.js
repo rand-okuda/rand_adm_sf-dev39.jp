@@ -6,6 +6,4 @@
         createEvent.fire();
     }
 
-    ,
-
 })
