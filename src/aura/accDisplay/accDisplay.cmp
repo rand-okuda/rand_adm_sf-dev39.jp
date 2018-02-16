@@ -14,7 +14,6 @@
                       recordId="{!v.recordId}"
                       targetFields="{!v.accountRecord}"
                       mode="VIEW"
-                      recordUpdated="{!c.handleRecordUpdated}" 
                       />
     
     <div class="Record Details"> 
