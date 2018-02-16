@@ -5,15 +5,19 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Search</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>Expenses</name>
         <type>CustomTab</type>
     </appMenuItems>
     <appMenuItems>
         <name>CampingList</name>
         <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Trailhead_Challenge</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Search</name>
+        <type>StandardAppMenuItem</type>
     </appMenuItems>
 </AppMenu>
