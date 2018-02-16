@@ -6,7 +6,6 @@
     <tab>standard-Contact</tab>
     <tab>standard-Account</tab>
     <tab>standard-Idea</tab>
-    <tab>standard-IdeaTheme</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
 </CustomApplication>
