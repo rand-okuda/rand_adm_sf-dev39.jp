@@ -94,6 +94,10 @@
         <label>Camping Item名</label>
         <type>Text</type>
     </nameField>
-    <searchLayouts/>
+    <searchLayouts>
+        <customTabListAdditionalFields>Price__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Quantity__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Packed__c</customTabListAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

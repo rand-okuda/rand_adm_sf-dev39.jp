@@ -60,4 +60,8 @@
         <name>Trailhead_Challenge_Lightning</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Trailhead</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
