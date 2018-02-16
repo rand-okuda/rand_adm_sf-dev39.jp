@@ -1,4 +1,4 @@
-<aura:component controller="ExpensesController" implements="force:appHostable">
+<aura:component controller="ExpensesController" implements="force:appHostable,flexipage:availableForAllPageTypes">
 
     <aura:handler name="init" 
                   value="{!this}"
