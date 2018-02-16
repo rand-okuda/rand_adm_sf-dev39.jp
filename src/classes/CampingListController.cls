@@ -6,7 +6,7 @@ public with sharing class CampingListController {
                 Id, Name, Packed__c, Price__c, Quantity__c, 
                 LastModifiedDate 
                 FROM Camping_Item__c 
-                ORDER BY LastModifiedDate DESC
+                ORDER BY Packed__c
                ];
     }
     
