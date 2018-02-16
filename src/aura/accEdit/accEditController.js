@@ -53,7 +53,7 @@
         } else if(eventParams.changeType === "REMOVED") {
 
         } else if(eventParams.changeType === "ERROR") {
-            console.log('Error: ' + component.get("v.error"));
+            console.log('Error: ' + component.get("v.recordSaveError"));
 
         }
 

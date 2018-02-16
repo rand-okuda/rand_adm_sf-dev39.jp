@@ -21,6 +21,7 @@
     <div class="Record Details">
         <lightning:card iconName="action:edit" title="Edit Account">
             <div class="slds-p-horizontal--small">
+
                 <lightning:input label="Account Name" 
                                  value="{!v.accountRecord.Name}"
                                  />
@@ -29,14 +30,14 @@
                                   variant="brand" 
                                   onclick="{!c.handleSaveRecord}" 
                                   />
+                <aura:if isTrue="{!not(empty(v.recordSaveError))}">
+                    <div class="recordError">
+                        {!v.recordSaveError}
+                    </div>
+                </aura:if>
+    
             </div>
         </lightning:card>
     </div>
 
-    <aura:if isTrue="{!not(empty(v.recordSaveError))}">
-        <div class="recordError">
-            {!v.recordSaveError}
-        </div>
-    </aura:if>
-    
 </aura:component>
