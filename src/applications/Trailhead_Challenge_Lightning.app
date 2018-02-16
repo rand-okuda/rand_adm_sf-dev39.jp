@@ -10,12 +10,13 @@
     <navType>Standard</navType>
     <tab>standard-home</tab>
     <tab>Trailhead_Challenge</tab>
-    <tab>standard-Feed</tab>
-    <tab>standard-File</tab>
-    <tab>Expense__c</tab>
-    <tab>Expenses</tab>
     <tab>Camping_Item__c</tab>
     <tab>CampingList</tab>
+    <tab>standard-Account</tab>
+    <tab>Expense__c</tab>
+    <tab>Expenses</tab>
+    <tab>standard-Feed</tab>
+    <tab>standard-File</tab>
     <uiType>Lightning</uiType>
     <utilityBar>Trailhead_Challenge_Lightning_UtilityBar</utilityBar>
 </CustomApplication>
