@@ -4,8 +4,9 @@
                     type="Object" 
                     />
 
-    <aura:attribute name="recordError" 
+    <aura:attribute name="recordSaveError" 
                     type="String" 
+                    default=""
                     />
 
     <force:recordData aura:id="recordViewer"
@@ -13,6 +14,7 @@
                       recordId="{!v.recordId}"
                       targetFields="{!v.accountRecord}"
                       mode="VIEW"
+                      recordUpdated="{!c.handleRecordUpdated}" 
                       />
     
     <div class="Record Details"> 
@@ -39,9 +41,9 @@
         </lightning:card>
     </div>
 
-    <aura:if isTrue="{!not(empty(v.recordError))}">
-        <div class="recordError">
-            {!v.recordError}
+    <aura:if isTrue="{!not(empty(v.recordSaveError))}">
+        <div class="recordSaveError">
+            {!v.recordSaveError}
         </div>
     </aura:if>
     
