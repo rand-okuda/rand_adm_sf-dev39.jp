@@ -35,7 +35,7 @@
     
     <!-- NEW EXPENSE FORM -->
     <lightning:layout >
-        <lightning:layoutItem padding="around-small" size="6">
+        <lightning:layoutItem padding="around-small">
 
             <c:expenseForm />
 
@@ -44,7 +44,7 @@
     <!-- / NEW EXPENSE FORM -->
 
     <lightning:layout >
-        <lightning:layoutItem padding="around-small" size="6">
+        <lightning:layoutItem padding="around-small">
 
             <c:expensesList expenses="{!v.expenses}"/>
 

@@ -20,7 +20,7 @@
                     />
     
     <lightning:layout >
-        <lightning:layoutItem padding="around-small" size="6">
+        <lightning:layoutItem padding="around-small">
             
             <c:campingListForm />
             
@@ -28,7 +28,7 @@
     </lightning:layout>
     
     <lightning:layout >
-        <lightning:layoutItem padding="around-small" size="6">
+        <lightning:layoutItem padding="around-small">
             <lightning:card title="Camping Items">
                 
                 <aura:iteration items="{!v.items}" var="item">
