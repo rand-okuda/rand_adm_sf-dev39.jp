@@ -3,6 +3,7 @@
     <aura:attribute name="accountRecord" 
                     type="Object" 
                     />
+
     <aura:attribute name="recordError" 
                     type="String" 
                     />
@@ -10,7 +11,7 @@
     <force:recordData aura:id="recordViewer"
                       layoutType="FULL"
                       recordId="{!v.recordId}"
-                      targetRecord="{!v.accountRecord}"
+                      targetFields="{!v.accountRecord}"
                       mode="VIEW"
                       />
     

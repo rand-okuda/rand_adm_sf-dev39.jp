@@ -4,10 +4,14 @@
                     type="Object" 
                     />
 
+    <aura:attribute name="recordError" 
+                    type="String" 
+                    />
+
     <force:recordData aura:id="recordEditor"
                       layoutType="FULL"
                       recordId="{!v.recordId}"
-                      targetRecord="{!v.accountRecord}"
+                      targetFields="{!v.accountRecord}"
                       mode="EDIT" 
                       />
 
