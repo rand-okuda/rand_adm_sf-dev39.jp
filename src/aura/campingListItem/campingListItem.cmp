@@ -27,8 +27,8 @@
                              name="Packed"
                              class="slds-p-around--small"
                              checked="{!v.item.Packed__c}"
-                             messageToggleActive="Yes"
-                             messageToggleInactive="No"
+                             messageToggleActive="Already packing"
+                             messageToggleInactive="Not packing"
                              onchange="{!c.clickPacked}"
                              />
         </p>
