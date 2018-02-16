@@ -9,7 +9,7 @@
                         />
 
     <lightning:card title="{!v.item.Name}" 
-                    iconName="standard:scan_card" >
+                    iconName="action:goal" >
 
         <aura:set attribute="footer">
             <p>Date: <lightning:formattedDateTime value="{!v.item.LastModifiedDate}"/></p>
