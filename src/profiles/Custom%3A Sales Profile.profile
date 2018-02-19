@@ -1713,6 +1713,14 @@
         <object>Solution</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <pageAccesses>
+        <apexPage>Trailhead_SLDS_Basic</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Trailhead_SLDS_Listview</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <profileActionOverrides>
         <actionName>Tab</actionName>
         <content>Sales_Home</content>
