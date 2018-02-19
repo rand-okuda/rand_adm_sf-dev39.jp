@@ -43,25 +43,10 @@
 <!-- / PAGE HEADER -->
 
 
-<!-- PRIMARY CONTENT WRAPPER -->
-<div class="myapp">
-
-  <ul class="slds-list--dotted slds-m-top--large">
-    <li>Account 1</li>
-    <li>Account 2</li>
-    <li>Account 3</li>
-    <li>Account 4</li>
-    <li>Account 5</li>
-    <li>Account 6</li>
-    <li>Account 7</li>
-    <li>Account 8</li>
-    <li>Account 9</li>
-    <li>Account 10</li>
-  </ul>
-
-</div>
-<!-- / PRIMARY CONTENT WRAPPER -->
-
+    <!-- PRIMARY CONTENT WRAPPER -->
+    <div class="myapp">
+    </div>
+    <!-- / PRIMARY CONTENT WRAPPER -->
 
     <!-- FOOTER -->
     <!-- / FOOTER -->
