@@ -160,6 +160,26 @@
                     );
                 }
                 updateOutputDiv();
+                
+                var accountForm = document.getElementById('add-account-form');
+                var accountNameField = document.getElementById('account-name');
+                
+                var createAccount = function() {
+                    var account = new SObjectModel.Account();
+                    account.create({ Name: accountNameField.value }, function(error, records) {
+                        if (error) {
+                            alert(error.message);
+                        } else {
+                            updateOutputDiv();
+                            accountNameField.value = '';
+                        }
+                    });
+                }
+                accountForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    createAccount();
+                });
+                
             })();
             </script>
             <!-- / JAVASCRIPT -->
