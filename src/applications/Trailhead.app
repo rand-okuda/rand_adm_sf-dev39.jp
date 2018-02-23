@@ -6,4 +6,5 @@
     <tab>Expense__c</tab>
     <tab>Camping_Item__c</tab>
     <tab>Trailhead_SLDS_Listview_Data</tab>
+    <tab>Trailhead_SLDS_RecordHome</tab>
 </CustomApplication>

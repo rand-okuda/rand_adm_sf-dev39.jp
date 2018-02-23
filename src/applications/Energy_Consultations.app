@@ -7,7 +7,6 @@
     <formFactors>Large</formFactors>
     <label>Energy Consultations</label>
     <navType>Standard</navType>
-    <tab>standard-home</tab>
     <tab>standard-Feed</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>Energy_Audit__c</tab>
