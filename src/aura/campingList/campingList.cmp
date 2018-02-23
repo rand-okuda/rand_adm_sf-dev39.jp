@@ -20,23 +20,25 @@
                     />
     
     <lightning:layout >
-        <lightning:layoutItem padding="around-small">
-            
+
+        <lightning:layoutItem >
             <c:campingListForm />
-            
         </lightning:layoutItem>
-    </lightning:layout>
+
+    </lightning:layout> 
     
-    <lightning:layout >
-        <lightning:layoutItem padding="around-small">
-            <lightning:card title="Camping Items">
-                
-                <aura:iteration items="{!v.items}" var="item">
+    <lightning:card title="Camping Items">
+
+        <lightning:layout horizontalAlign="center" multipleRows="true" >
+
+            <aura:iteration items="{!v.items}" var="item">
+                <lightning:layoutItem >                
                     <c:campingListItem item="{!item}"/>
-                </aura:iteration>
-                
-            </lightning:card>
-        </lightning:layoutItem>
-    </lightning:layout>
-    
+                </lightning:layoutItem>
+            </aura:iteration>
+            
+        </lightning:layout>
+        
+    </lightning:card>
+            
 </aura:component>
