@@ -17,6 +17,8 @@
     <tab>Expenses</tab>
     <tab>standard-Feed</tab>
     <tab>standard-File</tab>
+    <tab>Trailhead_SLDS_Listview_Data</tab>
+    <tab>Trailhead_SLDS_RecordHome</tab>
     <uiType>Lightning</uiType>
     <utilityBar>Trailhead_Challenge_Lightning_UtilityBar</utilityBar>
 </CustomApplication>
